@@ -1,0 +1,26 @@
+a{color:black;
+font-style:italic;
+font-size:x-large;
+text-decoration:underline;
+border-style: dashed;
+background-color:rgb(247, 206, 156) ;
+border-color: chocolate;
+font-family:sans-serif;
+}
+h2{
+color:lightsalmon;   
+text-align: center; 
+font-style: italic;
+font-size: x-large;
+font-size:larger;
+border-style:dotted;
+border-color:black;
+background-color: rgb(255, 213, 198);
+}
+h3{
+text-align: center;    
+color: brown;
+background-color:bisque
+}
+ul{display: flex;justify-content: center;}
+li{margin-right: 10px;list-style: none;} 
