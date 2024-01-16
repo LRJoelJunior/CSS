@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+      <head>
+           <title>Ma programmation</title>
+      </head>
+
+      <body>
+        <h1>Je m'appele Joël Junior Leroy Rodriguez</h1>
+
+        <p>Je m'appele Joël Junior Leroy Rodriguez</p>
+        <p>Je m'appel Joël Junior,j'ai 18 ans et je me lance dans le codage <br>
+         Je me suis lancé dans le codage parce que j'aimerais pouvoir créer mes propres sites,application etc <br>
+          <br>
+         
+
+        
+      </body>
+
+
+
+
+</html>

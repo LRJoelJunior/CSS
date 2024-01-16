@@ -1,58 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
-     <header>
-           <nav>
-                <ul>
-                    <li><h1> <a href="#home">Home</a> </h1> </li>  
-                    <li> <h1> <a href="#about">About</a> </h1> </li>
-                    <li> <h1> <a href="#work">Work</a> </h1> </li>
-                    <li> <h1> <a href="#resume">Resume</a> </h1> </li>   
-                   <li> <h1> <a href="#contact">Contact</a> </h1> </li>  
-            </ul>
-       </nav>
-   </header> 
-   <main>
-    <section id="Home">
-        <div class="mehome">
-        <h2>(Welcome to Home)/(Menu)</h2>
-        <h1><Je me nomme  Joël Junior></h1>
-        <h3>Dans cet onglet vous trouverez divers informations à mon sujet.</h3>
+
+    <li>
+        <div class="container-fluid">
+        <div class="row" style="background-color:rgb(255, 157, 157)">
+            <span>Première onglet</span>
         </div>
-   </main> 
-   <section id="About">
-    <div class="About">
-     <h2>(Weclome to About)/(A propos)</h2>   
-      <h3>Je m'appelle Joël Junior LR,j'ai 18 ans et je me lance dans la prommation. 
-     <section id="Work">
-    <div class="Work"> 
-     <h2>(Welcome to Work)/(Travail)</h2>  
-     <h3>Je suis un étudiant qui travail dans l'informatique.J'ai décidé de travailler dans <br> l'informatique pour pouvoir concevoir mes propres sites et <br> faire de la modélisation 3D dans le domaine <br>du jeux vidéo.</h3>
-    </main>
-    <main>
-     <section id="Resume">  
-    <div class="Resume">
-    <h2>(Welcome to Resume)/(Resumé)</h2>    
-    </main>
-    <section id="Contact">
-    <div class="contact">  
-    <h2>(Contact)</h2>      
-     <h3> Veuillez me joindre via les coordonnées <br>présentes ci-dessous :</h3> 
-     1-Numéro de téléphone: <br> 2-Prénom: <br> 3-E-mail: <br> 4-Nom: <br>
-     <label for="firstname" votre nom ></label> <br>
-     <input type="text" votre nom name="firstname">
-     <label for="lastname" votre prénom ></label> <br>
-     <input type="text" votre nom></label> <br>
-     <label for="email" votre email></label> <br>
-     <input type="text" votre email></label>
-     <main>
+        <hr/>
+        <div class="row" style="background-color:rgb(255, 157, 157)">
+            <span>Second row</span>
+          </div>
+          <hr />
+          <div class="row" style="background-color:rgb(255, 157, 157)">
+            <span>Third row</span>
+          </div>
+       
+        <h1> <a href="#home">Home</a></h1>
+    </li>
+    <h6>Le premier onglet vous dirigera vers la page du menu principal (home) dans lequel vous pourrez accderder aux
+        pages <br>"Résumé" et "Cours".</h6>
+    <li>
+        <h1> <a href="Résumé.html">Résumé</a></h1>
+    </li>
+    <h6>Le deuxième onglet vous dirigera vers la page "résumé" dans lequel vous trouverez le résumé du cours concernant
+        les dates importante dans l'histoire de la france.</h6>
+    <li>
+        <h1> <a href="Cours.html">Cours</a></h1>
+    </li>
+    <h6> dernier onglet vous dirigera vers la page "cours" qui vous <br> permettras de comprendre ce qui causé la
+        révolution francaise et les évènements clés liés.</h6>
+    <img class="img_index"
+        src="https://th.bing.com/th/id/R.0947409826b8dc2ee6102ba018b28417?rik=YmqI851v0Q9Ntw&pid=ImgRaw&r=0" alt="">
+    <script src="MyScriptFile.js"></script>
+
+    <h><button onclick="btn1()">ROUGE</button></h>
+    <h><button onclick="btn2()">ORANGE</button></h>
+    <h><button onclick="btn3()">JAUNE</button></h>
+    <script src="js.js"></script>
 </body>
+
 </html>
